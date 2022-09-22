@@ -1,0 +1,156 @@
+table {
+    width: 600px; 
+    height: 130px;
+    border-collapse: collapse; 
+    } 
+
+td  {
+    padding: 3px; 
+    border: 1px solid #000; 
+    }
+    
+tr {
+    background-color: #168f8f;
+    color: #fff;
+    }
+
+tr:hover {
+    background-color:#f5f506;
+    }
+#yellow{
+    background-color: #f5f506; 
+    color: black;
+}
+
+#yellow:hover {
+    background-color:#168f8f;
+}
+
+#rectangle {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 150px;
+    height: 260px;
+    background: rgb(147, 209, 163);
+    border-radius: 20px;       
+    }
+
+#square {
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 20px;
+    }
+
+#time {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 30px;
+    font-family: Bahnschrift SemiBold;
+}
+
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9 {
+    width: 30px;
+    height: 30px;
+    background: rgb(36, 35, 35);
+    border-radius: 20px;
+}
+
+#b1 {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+#b2 {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+}
+#b3 {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+}
+#b4{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+#b5 {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+#b6 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+#b7 {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+#b8 {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+}
+#b9 {
+    position: absolute;
+    top: 85%;
+    left: 70%;
+}
+
+#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9 {
+    width: 30px;
+    height: 30px;
+    background: rgb(36, 35, 35);
+    border-radius: 20px;
+}
+
+#mon {
+    transform: translate(0px,-225px) scale(0.8, 3);
+    background: white;
+    border-radius: 9px;
+    }
+
+#hours {
+    transform: scale(1, 0.3);
+    text-align: center;
+    font-size: 30px;
+    font-family: Bahnschrift SemiBold;
+}
+
+#a1 {
+transform: translate(110px, 130px);
+}
+#a2 {
+transform: translate(110px, 140px);
+}
+#a3 {
+transform: translate(110px, 150px);
+}
+#a4{
+transform: translate(65px, 118px);
+}
+#a5 {
+transform: translate(65px, 48px);
+}
+#a6 {
+transform: translate(65px, -19px);
+}
+#a7 {
+transform: translate(17px, -49px);
+}
+#a8 {
+transform: translate(17px, -2px);
+}
+#a9 {
+transform: translate(17px, -69px);
+}
